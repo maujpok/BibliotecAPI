@@ -9,8 +9,12 @@ namespace BibliotecAPI.Data
         public AutoMapperProfiles()
         {
             CreateMap<CategoryEntity, CategoryDTO>()
-                    .ReverseMap();
+                .ReverseMap();
             CreateMap<CategoryCreationDTO, CategoryEntity>();
+
+            CreateMap<AuthorEntity, AuthorDTO>()
+                .ReverseMap();
+            CreateMap<AuthorCreationDTO, AuthorEntity>();
         }
     }
 }

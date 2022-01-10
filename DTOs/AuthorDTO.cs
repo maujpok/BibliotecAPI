@@ -1,6 +1,6 @@
-﻿namespace BibliotecAPI.Entities
+﻿namespace BibliotecAPI.DTOs
 {
-    public class AuthorEntity
+    public class AuthorDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

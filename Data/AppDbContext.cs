@@ -12,5 +12,7 @@ namespace BibliotecAPI.Data
 
         public DbSet<CategoryEntity> Categories { get; set; }
 
+        public DbSet<AuthorEntity> Author { get; set; }
+
     }
 }
