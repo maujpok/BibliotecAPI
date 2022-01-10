@@ -1,11 +1,12 @@
-﻿namespace BibliotecAPI.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BibliotecAPI.DTOs
 {
-    public class EditorialEntity
+    public class EditorialCreationDTO
     {
-        public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
-
     }
 }

@@ -23,6 +23,7 @@ namespace BibliotecAPI.Controllers
             this._appDbContext = context;
             this.mapper = mapper;
         }
+        
         //GET ALL AUTHORS
         [HttpGet]
         public async Task<ActionResult<List<AuthorDTO>>> Get()

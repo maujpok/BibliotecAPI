@@ -15,6 +15,14 @@ namespace BibliotecAPI.Data
             CreateMap<AuthorEntity, AuthorDTO>()
                 .ReverseMap();
             CreateMap<AuthorCreationDTO, AuthorEntity>();
+
+            CreateMap<BookEntity, BookDTO>()
+                .ReverseMap();
+            CreateMap<BookCreationDTO, BookEntity>();
+
+            CreateMap<EditorialEntity, EditorialDTO>()
+                .ReverseMap();
+            CreateMap<EditorialCreationDTO, EditorialEntity>();
         }
     }
 }

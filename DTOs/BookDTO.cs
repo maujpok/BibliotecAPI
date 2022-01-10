@@ -1,6 +1,8 @@
-﻿namespace BibliotecAPI.Entities
+﻿using BibliotecAPI.Entities;
+
+namespace BibliotecAPI.DTOs
 {
-    public class BookEntity
+    public class BookDTO
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -9,12 +11,12 @@
 
 
         public AuthorEntity Author { get; set; }
-        public int AuthorId { get; set; }
+        //public int AuthorId { get; set; }
 
         public CategoryEntity Category { get; set; }
-        public int CategoryId { get; set; }
+        //public int CategoryId { get; set; }
 
         public EditorialEntity Editorial { get; set; }
-        public int EditorialId { get; set; }
+        //public int EditorialId { get; set; }
     }
 }

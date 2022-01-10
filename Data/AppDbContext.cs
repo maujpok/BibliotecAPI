@@ -14,5 +14,9 @@ namespace BibliotecAPI.Data
 
         public DbSet<AuthorEntity> Author { get; set; }
 
+        public DbSet<BookEntity> Book { get; set; }
+
+        public DbSet<EditorialEntity> Editorial { get; set; }
+
     }
 }
